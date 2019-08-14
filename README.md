@@ -5,7 +5,7 @@ Many parameters, from data generation to network parameters, are not clearly men
 
 ## Instructions
 To run this code, you need following data:
-- NTU RGB+D depth images, RGB images, and flows in HDF5 format. Data generation is done with codes in ```dataset``` directory. These files are way too big to be shared, but [here](https://d.pr/f/AUFL30/k57oIw38aC) is a small set of samples!
+- NTU RGB+D depth images, RGB images, and flows in HDF5 format. Data generation is done with codes in ```dataset``` directory. These files are way too big to be shared, but [here](https://d.pr/f/QVcYNG/iqaQJSFRIN) is a small set of samples!
 - NTU RGB+D JSON and label text files containing videoname, video length, and action labels. These are in ```assets``` directory.
 
 Dataset directory looks like:
