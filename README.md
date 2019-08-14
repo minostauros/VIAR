@@ -5,7 +5,7 @@ Many parameters, from data generation to network parameters, are not clearly men
 
 ## Instructions
 To run this code, you need following data:
-- NTU RGB+D depth images, RGB images, and flows in HDF5 format. Data generation is done with codes in ```dataset``` directory. These files are way too big to be shared.
+- NTU RGB+D depth images, RGB images, and flows in HDF5 format. Data generation is done with codes in ```dataset``` directory. These files are way too big to be shared, but [here](https://d.pr/f/AUFL30/k57oIw38aC) is a small set of samples!
 - NTU RGB+D JSON and label text files containing videoname, video length, and action labels. These are in ```assets``` directory.
 
 Dataset directory looks like:
@@ -26,7 +26,7 @@ python viar.py --test --ntu-dir /ssd1/users/mino/dataset/NTU_RGB+D_processed/ --
 
 ### Observation
 ![TSNE Result on Setup number 1 and Replication number 1](/assets/figure.png?raw=true "TSNE Result")
-Figure above is TSNE result on extracted ConvLSTM features from videos with Setup number 1 and Replication number 1 (540 videos, 6 frames or dots per video, see ```/assets/figure.pdf``` for full resolution image. Blue groups are Camera number 1Orange groups are Camera number 2, green groups are Camera number 3.
+Figure above is TSNE result on extracted ConvLSTM features from videos with Setup number 1 and Replication number 1 (540 videos, 6 frames or dots per video, see ```/assets/figure.pdf``` for full resolution image. Blue groups are Camera number 1, orange groups are Camera number 2, and green groups are Camera number 3.
 I personally expected to get TSNE result that shows 'view-invariant' property of these features, but TSNE does not seem to be the best way to see such property.
 
 ### References
